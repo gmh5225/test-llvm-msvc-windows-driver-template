@@ -3,7 +3,10 @@ name: build-win64
 permissions:
   contents: write
   
-on: workflow_dispatch
+on:
+  release:
+    types:
+      - published
 
 jobs:
   build:

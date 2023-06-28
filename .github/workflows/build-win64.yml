@@ -3,10 +3,12 @@ name: build-win64
 permissions:
   contents: write
   
-on:
-  release:
-    types:
-      - published
+#on:
+#  release:
+#    types:
+#      - published
+
+on: [push, pull_request]
 
 jobs:
   build:

@@ -16,7 +16,7 @@ jobs:
     steps:
     
     - name: Setup llvm-msvc
-      uses: NewWorldComingSoon/setup-llvm-msvc@v1
+      uses: NewWorldComingSoon/setup-llvm-msvc@main
     
     - name: Checkout
       uses: actions/checkout@v2

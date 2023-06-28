@@ -17,8 +17,6 @@ jobs:
     
     - name: Setup llvm-msvc
       uses: NewWorldComingSoon/setup-llvm-msvc@main
-      with:
-          cache-path: $env:TEMP
     
     - name: Checkout
       uses: actions/checkout@v2
